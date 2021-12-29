@@ -69,8 +69,6 @@ pytest --html= 'path to report directory'/report.html
     * An HTML report can easily be generated that summarises passes, failures, logs, time taken by each test etc.
 
 
-## Lessons Learned
+## 🛠 Skills
+Python, Pytest, Selenium...
 
-What did you learn while building this project? What challenges did you face and how did you overcome them?
-
-I have developed this framework from scratch. I learnt how to structure the project and learnt how page object mechanism works. I also automated some basic and complex Web UI elements like static dropdown, suggestive dropdown, calender UI, checkbox, assertion, logging and many more which gives me confidence to automate any website. I learnt on how to setup Jenkins and add our project to Jenkins. I learnt how to create and push our project to GitHub repository using cmd commands. How to create a readme file and many more :)
