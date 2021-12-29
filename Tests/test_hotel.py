@@ -57,4 +57,3 @@ class TestHotel(Baseclass):
         # Final Search
         hp.Search().click()
         assert "Bangalore" in hp.getFinalPage().text
-
