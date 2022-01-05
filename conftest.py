@@ -1,12 +1,13 @@
 import pytest
 from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
 
 from PageObjects.LoginPage import LoginPage
 
 
 @pytest.fixture(scope="class")
 def setup(request):
-    driver = webdriver.Chrome(executable_path="C:/2019/Temp/chromedriver.exe")
+    driver = webdriver.Chrome(ChromeDriverManager().install())
     driver.get("https://www.phptravels.net/login")
     driver.maximize_window()
     request.cls.driver = driver
