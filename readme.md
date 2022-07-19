@@ -72,3 +72,5 @@ pytest --html= 'path to report directory'/report.html
 ## 🛠 Skills
 Python, Pytest, Selenium...
 
+# Thank You
+
